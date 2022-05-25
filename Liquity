@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T16:50:02.853Z" agent="5.0 (X11)" etag="Xl5yOtVqp0MYBWrUVDai" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T17:05:17.487Z" agent="5.0 (X11)" etag="gl0tXh_wZtlEgWlOpFri" version="14.8.4" type="github">
   <diagram id="6KBx-5OkFGgMyM1ofSF4" name="Page-1">
-    <mxGraphModel dx="942" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1570" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,14 @@
         <mxCell id="eZTXevCA145f2qTCzgzP-32" value="Borrow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="580" y="340" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eZTXevCA145f2qTCzgzP-37" value="Pool reward" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="eZTXevCA145f2qTCzgzP-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeColor=#000000;" edge="1" parent="1" source="eZTXevCA145f2qTCzgzP-37" target="eZTXevCA145f2qTCzgzP-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-37" value="LQTY reward" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="480" y="570" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eZTXevCA145f2qTCzgzP-44" value="&lt;div&gt;Liquidation reserve&lt;/div&gt;&lt;div&gt;(Currently 200LUSD)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -165,11 +172,54 @@
         <mxCell id="eZTXevCA145f2qTCzgzP-63" value="ETH/LUSD rewards" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="270" y="140" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eZTXevCA145f2qTCzgzP-66" value="Frontend providers" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="650" y="630" width="140" height="125" as="geometry" />
-        </mxCell>
         <mxCell id="eZTXevCA145f2qTCzgzP-68" value="&lt;div&gt;User will gain &lt;br&gt;&lt;/div&gt;&lt;div&gt;Collaterals from liquidated troves&lt;/div&gt;&lt;div&gt; in exchange for &lt;br&gt;&lt;/div&gt;&lt;div&gt;Burning his LUSD from Pool&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="245" y="410" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-69" value="Liquity protocol interaction chart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="450" y="30" width="350" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="https://docs.liquity.org/documentation/resources" link="https://docs.liquity.org/documentation/resources" id="eZTXevCA145f2qTCzgzP-70">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+            <mxGeometry x="380" y="50" width="470" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eZTXevCA145f2qTCzgzP-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;strokeColor=#000000;" edge="1" parent="1" source="eZTXevCA145f2qTCzgzP-71" target="eZTXevCA145f2qTCzgzP-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-71" value="communityIssuance" style="swimlane;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-75" value="LQTY issurance fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-76" value="New LUSD issued" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="55" y="420" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZTXevCA145f2qTCzgzP-78" target="eZTXevCA145f2qTCzgzP-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="775" y="630" />
+              <mxPoint x="590" y="630" />
+              <mxPoint x="590" y="460" />
+              <mxPoint x="515" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeColor=#000000;" edge="1" parent="1" source="eZTXevCA145f2qTCzgzP-78" target="eZTXevCA145f2qTCzgzP-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-78" value="Frontend providers" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="705" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-83" value="LQTY" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="630" y="700" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-86" value="Tag deposits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="720" y="620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eZTXevCA145f2qTCzgzP-90" value="Earn according to Kickback ratio" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
