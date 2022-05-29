@@ -14,3 +14,99 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+/* The voteup button animation */
+
+.animated-button {
+  transition: width 0.5s;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  background: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 25px;
+  color: #eeabab;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2), inset -5px -5px 10px 0px rgba(0, 0, 0, 0.2);
+  outline: none;
+  box-sizing: border-box;
+  width: 253px;
+  height: 51px;
+}
+
+.animated-button span {
+  white-space: nowrap;
+}
+
+.animated-button.loading {
+  -webkit-animation: loading 0.5s 0.75s alternate infinite;
+  animation: loading 0.5s 0.75s alternate infinite;
+  transition: width 0.5s 0.25s;
+  width: 51px;
+}
+
+.animated-button.loading span {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.animated-button.success {
+  width: 128px;
+}
+
+.animated-button.success span {
+  opacity: 0;
+  -webkit-animation: success 0.5s 0.5s forwards;
+  animation: success 0.5s 0.5s forwards;
+}
+
+@-webkit-keyframes loading {
+  100% {
+    transform: scale(1.2);
+    background: #fff7ba;
+  }
+}
+
+@keyframes loading {
+  100% {
+    transform: scale(1.2);
+    background: #fff7ba;
+  }
+}
+
+@-webkit-keyframes success {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes success {
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* The nft card styles */
+
+.nft-selected {
+  background-color: blue !important;
+  color: white !important;
+}
+.nft-selected * {
+  color: white !important;
+}
+
+.nft-not-selected {
+  background-color: #fff;
+}
+
+.nft-card:hover {
+  cursor: pointer;
+}
+
+/* end of nft card styles */
